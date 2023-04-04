@@ -44,6 +44,11 @@ section#login > div#img{
 }
 
 section#login > div#form{
+    text-align: center;
     display: block;
     padding: 10px;
+}
+
+section#login > div#form h1{
+    padding-bottom: 10px;
 }
