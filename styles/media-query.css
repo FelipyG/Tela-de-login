@@ -38,4 +38,13 @@
     main{
         background-image: linear-gradient(var(--cor2), var(--cor3));
     }
+
+    section#login > div#form p{
+        font-size: 1.2em;
+        font-weight: lighter;
+    }
+
+    section#login > div#form h1{
+        font-size: 2em;
+    }
 }
