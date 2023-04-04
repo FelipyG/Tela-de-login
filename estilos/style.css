@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor1: #2708a0;
+    --cor2: #3A5683;
+    --cor3: #A0C1D1; 
+}
+
+html, body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor2);
+}
+
+main{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login{
+    position: absolute;
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+}
+
+section#login > div#img{
+    display: block;
+    background: var(--cor2) url(../images/pattern-pexels.jpg) no-repeat center bottom;
+    background-size: cover;
+    height: 200px;
+}
+
+section#login > div#form{
+    display: block;
+    padding: 10px;
+}
