@@ -1,0 +1,41 @@
+@media screen and (min-width:768px) and (max-width: 1024px){
+    section#login{
+        width: 80vw;
+        
+    }
+
+    section#login > div#img{
+        float: left;
+        width: 39%;
+        height: 100%;
+    }
+
+    section#login > div#form{
+        float: right;
+        width: 60%;
+    }
+    main{
+        background-image: linear-gradient(var(--cor2), var(--cor3));
+    }
+}
+
+@media screen and (min-width: 1024px){
+    section#login{
+        width: 990px;
+        
+    }
+
+    section#login > div#img{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#form{
+        float: left;
+        width: 50%;
+    }
+    main{
+        background-image: linear-gradient(var(--cor2), var(--cor3));
+    }
+}
