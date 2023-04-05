@@ -133,3 +133,18 @@ span#password, span#user{
 span#spanmail{
     font-size: 1.1em;
 }
+
+div#contato{
+    margin-top: 90px;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+div#contato a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+
+div#contato a:hover{
+    text-decoration: underline;
+}

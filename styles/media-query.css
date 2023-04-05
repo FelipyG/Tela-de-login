@@ -1,7 +1,11 @@
 @media screen and (min-width:768px) and (max-width: 1024px){
+
+    main{
+        background-image: linear-gradient(var(--cor1), rgb(240, 202, 133));
+    }
+
     section#login{
         width: 80vw;
-        
     }
 
     section#login > div#img{
@@ -14,15 +18,32 @@
         float: right;
         width: 60%;
     }
-    main{
-        background-image: linear-gradient(var(--cor1), rgb(240, 202, 133));
+    
+    section#login > div#form p{
+        font-size: 1.0em;
+        font-weight: lighter;
+    }
+
+    section#login > div#form h1{
+        font-size: 2em;
+    }
+
+    div#contato{
+        margin-top: 280px;
+        text-align: center;
+        font-size: 0.9em;
+        margin-bottom: 0px;
     }
 }
 
 @media screen and (min-width: 1024px){
+    
+    main{
+        background-image: linear-gradient(var(--cor1), rgb(240, 202, 133));
+    }
+
     section#login{
         width: 990px;
-        
     }
 
     section#login > div#img{
@@ -35,10 +56,7 @@
         float: left;
         width: 50%;
     }
-    main{
-        background-image: linear-gradient(var(--cor1), rgb(240, 202, 133));
-    }
-
+    
     section#login > div#form p{
         font-size: 1.2em;
         font-weight: lighter;
@@ -47,7 +65,10 @@
     section#login > div#form h1{
         font-size: 2em;
     }
-    form > div#email{
-        
+    
+    div#contato{
+        margin-top: 270px;
+        text-align: center;
+        font-size: 1em;
     }
 }
