@@ -15,7 +15,7 @@
         width: 60%;
     }
     main{
-        background-image: linear-gradient(var(--cor2), var(--cor3));
+        background-image: linear-gradient(var(--cor1), rgb(240, 202, 133));
     }
 }
 
@@ -36,7 +36,7 @@
         width: 50%;
     }
     main{
-        background-image: linear-gradient(var(--cor2), var(--cor3));
+        background-image: linear-gradient(var(--cor1), rgb(240, 202, 133));
     }
 
     section#login > div#form p{
@@ -46,5 +46,8 @@
 
     section#login > div#form h1{
         font-size: 2em;
+    }
+    form > div#email{
+        
     }
 }
